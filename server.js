@@ -37,7 +37,7 @@ fs.writeFileSync(
 );
     //return finished code to post route for response
     return newTask;
-}
+};
 
 
 //working
@@ -51,7 +51,14 @@ app.post('/api/notes', (req, res) => {
     //req.body is where incoming content will be
     console.log(req.body);
     res.json(req.body);
+
+    //add animal to json file
 });
+
+// '/' brings us to the root of the server
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+})
 
 app.listen(PORT, () => {
     console.log(`API server now on ${PORT}`);
