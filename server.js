@@ -56,9 +56,15 @@ app.post('/api/notes', (req, res) => {
 });
 
 // '/' brings us to the root of the server
+//connects index.html
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
-})
+});
+
+//connects notes.html
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/notes.html'));
+});
 
 app.listen(PORT, () => {
     console.log(`API server now on ${PORT}`);

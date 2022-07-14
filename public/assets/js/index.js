@@ -75,6 +75,27 @@ const handleNoteSave = () => {
     getAndRenderNotes();
     renderActiveNote();
   });
+  
+  //CODE ABBY ADDED
+  //asks server for info on the front end of our app
+  fetch('/api/notes', {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(noteObject)
+  })
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      }
+      alert('Error: ' + response.statusText);
+    })
+    .then(postResponse => {
+      console.log(postResponse);
+      alert('Thank you for adding a note!');
+    });
 };
 
 // Delete the clicked note
