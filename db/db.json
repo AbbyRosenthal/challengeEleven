@@ -1,7 +1,17 @@
 [
   {
-    "title": "new note",
-    "text": "new",
-    "id": "a6b9d529-6d10-4bbe-b068-8f62f0123684"
+    "title": "Cook Dinner",
+    "text": "Make spaghetti",
+    "id": "97299bd1-0ae8-44e9-8304-46149fb2c045"
+  },
+  {
+    "title": "Go to Target",
+    "text": "pick up diapers and wipes",
+    "id": "02a32be8-feed-421d-919b-a9d1ab32d94b"
+  },
+  {
+    "title": "Water the Flowers",
+    "text": "make sure to get them when its 100 degrees!",
+    "id": "fbeb6886-9e79-4ce2-8307-aca3a4cbcff2"
   }
 ]
