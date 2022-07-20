@@ -1,8 +1,8 @@
 # Description
-This website allows users to create new notes that will appear on the side bar.  When the task or note no longer needs to be displayed, the user is able to click the trash icon to delete the note. 
+This website allows users to create new notes that will appear on the side bar.  When the task or note no longer needs to be displayed, the user is able to click the trash icon to delete the note. This challenge uses express.js to create persistant data and improve the user's experience with the webpage. This challenge was completed with started code provided by class.  I connected the front end to the back end to make the web page functional.
 
 # Screenshot
-[!image](./public/assets/Screen%20Shot%202022-07-17%20at%208.26.10%20PM.png)
+[!screenshot] (./public/assets/Screen%20Shot%202022-07-17%20at%208.26.10%20PM.png)
 
 # GitHub Link
 
